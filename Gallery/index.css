@@ -1,0 +1,9 @@
+.gallery {
+    padding: 1rem;
+    max-width: 200px;
+}
+
+img{
+    width: 100%;
+    pointer-events: none;
+}
