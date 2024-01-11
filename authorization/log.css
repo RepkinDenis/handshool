@@ -1,0 +1,75 @@
+.card{
+    font-size: 18px;
+    background-color:rgba(255, 236, 223, 0.996078431372549);
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    line-height: 1;
+    border-radius: 50px;
+    padding: 40px;
+}
+
+.inp{
+    width:100%;
+    height:50px;
+    background-color:rgba(255, 245, 238, 1);
+    box-sizing:border-box;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgba(85, 85, 85, 1);
+    border-radius:50px;
+    font-size:20px;
+    color:#7F7F7F;
+    padding-left: 10px;
+}
+  label{
+    text-align: left;
+  }
+  fieldset{
+    border: none;
+  }
+
+#submit {
+    width:100%;
+    height:50px;
+    background-color:rgba(198, 218, 191, 0.996078431372549);
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+    font-size:20px;
+    color: black;
+    
+}
+#submit:hover {
+    background: #E6FFDE;
+}
+
+#reg {
+    width:100%;
+    height:50px;
+    background-color:rgba(198, 218, 191, 0.996078431372549);
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+    font-size:20px;
+    
+}
+#reg:hover {
+    background: #E6FFDE;
+}
+
+ #avatar {
+    width:100%;
+    height:30px;
+    background-color:none;
+    box-sizing:border-box;
+    font-size:16px;
+    
+}
+
+

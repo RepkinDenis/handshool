@@ -1,0 +1,19 @@
+body {
+    padding: 1rem;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image:url('../../images/home_page/back.png');
+    background-repeat:repeat;
+    background-size: 100%;
+}
+
+.img-area{
+    width: 100%;
+    pointer-events: none;
+    text-align: center;
+}
+
+.img-area img {
+    margin-left: auto; 
+    margin-right: auto; 
+  }
