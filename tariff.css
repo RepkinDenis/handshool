@@ -1,0 +1,465 @@
+body {
+    margin:0px;
+    position:relative;
+    left:-0px;
+    height: 100vh;
+    width:100%;
+    text-align:left;
+    background-image:url('../../images/home_page/back.png');
+    background-repeat:repeat;
+    background-size: 100%;
+}
+#base {
+    position:absolute;
+    z-index:0;
+}
+.btn {
+    background-color:rgba(198, 218, 191, 0.996078431372549);
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+    font-size:18px;
+}
+.btn:hover {
+    background: #E6FFDE;
+}
+
+
+
+#bars {
+    position:absolute;
+    top: 2%;
+    left: 5%;
+    width:70px;
+    height:70px;
+    background-color:rgba(198, 218, 191, 0.996078431372549);
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:20px;
+    background-image: url("/../images/singup/menu.svg");
+    background-size: 50px 42px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #bars:hover {
+    background: #E6FFDE;
+    background-image: url("images/singup/menu.svg");
+    background-size: 50px 42px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  #bars_panel{
+    position:absolute;
+    z-index: 1;
+    left: -400px; 
+    width:400px;
+    height:920px;
+    -ms-overflow-x:hidden;
+    overflow-x:hidden;
+    -ms-overflow-y:hidden;
+    overflow-y:hidden;
+    background-color:rgba(194, 220, 251, 1);
+    background-image:none;
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(85, 85, 85, 1);
+    border-radius:20px;
+    padding-top: 250px;
+    padding-left: 80px;
+    transition: left 0.3s ease;
+  }
+#cross {
+    position:absolute;
+    left:320px;
+    top:35px;
+    width:50px;
+    height:50px;
+    background-color:rgba(194, 220, 251, 1);
+    background-image: url("images/singup/cross.svg");
+    border-width: 0;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#registration_bars{
+    width:200px;
+    height:50px;
+    margin-bottom: 30px;
+}
+#singup_bars{
+    width:200px;
+    height:49px;
+    margin-bottom: 30px;
+}
+#comment_bars{
+    width:200px;
+    height:49px;
+    margin-bottom: 30px;
+}
+#qa_bars{
+    width:200px;
+    height:49px;
+    margin-bottom: 30px;
+}
+#home_page_bars{
+    width:200px;
+    height:49px;
+    margin-bottom: 30px;
+}
+#main_text{
+    position:absolute;
+    left:43%;
+    top:20px;
+    width:21%;
+    height:10%;
+    font-size:48px;
+    background-color:rgba(194, 220, 251, 1);
+    border-width:2px;
+    border-style:solid;
+    border-radius:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#single{
+    position:absolute;
+    left:10%;
+    margin-top:10%;
+    width:27%;
+    height:750px;
+    background-color:rgba(227, 237, 223, 1);
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+}
+#group{
+    position:absolute;
+    left:40%;
+    margin-top:10%;
+    width:27%;
+    height:750px;
+    background-color:rgba(227, 237, 223, 1);
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+}
+#pair{
+    position:absolute;
+    left:70%;
+    margin-top:10%;
+    width:27%;
+    height:750px;
+    background-color:rgba(227, 237, 223, 1);
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+}
+.text{
+    position:absolute;
+    width:75%;
+    height:50px;
+    background-color:rgba(255, 236, 223, 0.996078431372549);
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#duration_single{
+    left:48px;
+    top:115px;
+}
+#subscriprion_single{
+    left:48px;
+    top:225px;
+}
+#pros_single{
+    left:48px;
+    top:335px;
+}
+#one_less_price_single{
+    left:48px;
+    top:500px;
+}
+#dur_price_single{
+    left:48px;
+    top:610px;
+}
+
+
+
+
+#duration_group{
+    left:48px;
+    top:115px;
+}
+#subscriprion_group{
+    left:48px;
+    top:225px;
+}
+#pros_group{
+    left:48px;
+    top:335px;
+}
+#one_less_price_group{
+    left:48px;
+    top:500px;
+}
+#dur_price_group{
+    left:48px;
+    top:610px;
+}
+
+
+
+#duration_pair{
+    left:48px;
+    top:115px;
+}
+#subscriprion_pair{
+    left:48px;
+    top:225px;
+}
+#pros_pair{
+    left:48px;
+    top:335px;
+}
+#one_less_price_pair{
+    left:48px;
+    top:500px;
+}
+#dur_price_pair{
+    left:48px;
+    top:610px;
+}
+
+.answer{
+    position:absolute;
+    width:75%;
+    height:50px;
+    background-color:rgba(227, 237, 223, 1);
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#answer_duration_single{
+    left:48px;
+    top:170px;
+}
+#answer_subscriprion_single{
+    left:48px;
+    top:280px;
+}
+#answer_pros_single{
+    height:100px;
+    left:48px;
+    top:392px;
+}
+#answer_one_less_price_single{
+    left:48px;
+    top:555px;
+}
+#answer_dur_price_single{
+    left:48px;
+    top:665px;
+}
+
+
+
+
+#answer_duration_group{
+    left:48px;
+    top:170px;
+}
+#answer_subscriprion_group{
+    left:48px;
+    top:280px;
+}
+#answer_pros_group{
+    height:100px;
+    left:48px;
+    top:392px;
+    text-align: center;
+}
+#answer_one_less_price_group{
+    left:48px;
+    top:555px;
+}
+#answer_dur_price_group{
+    left:48px;
+    top:665px;
+}
+
+
+
+#answer_duration_pair{
+    left:48px;
+    top:170px;
+}
+#answer_subscriprion_pair{
+    left:48px;
+    top:280px;
+}
+#answer_pros_pair{
+    height:100px;
+    left:48px;
+    top:392px;
+}
+#answer_one_less_price_pair{
+    left:48px;
+    top:555px;
+}
+#answer_dur_price_pair{
+    left:48px;
+    top:665px;
+}
+#single_title{
+    left:48px;
+    top:30px;
+    position:absolute;
+    width:75%;
+    height:50px;
+    background-color:rgba(227, 237, 223, 1);
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight:bold;
+}
+#group_title{
+    left:48px;
+    top:30px;
+    position:absolute;
+    width:75%;
+    height:30px;
+    background-color:rgba(227, 237, 223, 1);
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight:bold;
+}
+#pair_title{
+    left:48px;
+    top:30px;
+    position:absolute;
+    width:75%;
+    height:30px;
+    background-color:rgba(227, 237, 223, 1);
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight:bold;
+}
+
+@media screen and (max-width: 1600px) {
+    #title {
+        font-size: 48px;
+    }
+    p {
+      font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+    #title {
+        font-size: 48px;
+    }
+    p {
+      font-size: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+    #title {
+        font-size: 48px;
+    }
+    p {
+      font-size: 18px;
+  }
+  #single{
+    margin-top: 15%;
+  }
+  #group{
+    margin-top: 15%;
+  }
+  #pair{
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+    #title {
+        font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+  }
+  #single{
+    margin-top: 20%;
+    transform: translate(20%);
+    width: 65%;
+  }
+  #group{
+    margin-top: 900px;
+    transform: translate(-26%);
+    width: 65%;
+  }
+  #pair{
+    margin-top: 1700px;
+    transform: translate(-72%);
+    width: 65%;
+  }
+  #main_text{
+    width: 27%;
+  }
+}
+@media screen and (max-width: 500px) {
+    #title {
+        font-size: 26px;
+    }
+    p {
+      font-size: 18px;
+  }
+  #single{
+    margin-top: 25%;
+  }
+  #group{
+    margin-top: 910px;
+  }
+  #bars_panel{
+    width: 350px;
+  }
+  #cross{
+    left:270px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #single{
+    margin-top: 30%;
+  }
+  #main_text{
+    width: 35%;
+    left: 38%;
+  }
+}
