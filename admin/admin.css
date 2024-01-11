@@ -1,0 +1,116 @@
+body{
+    margin:0px;
+    position:relative;
+    left:0px;
+    width:100%;
+    height: 100vh;
+    background-image:url('../../images/home_page/back.png');
+    background-repeat:repeat;
+    background-size: 100%;
+}
+table, p, input, h3{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 10px;
+}
+#table{
+    position: relative;
+}
+#table2{
+    position: relative;
+}
+#table3{
+    position: relative;
+}
+#table4{
+    position: relative;
+}
+#lesson{
+    margin-left: 10px;
+    margin-right: 0;
+    width:105px;
+    height:30px;
+}
+#search_form{
+    position: relative;
+}
+#search_form2{
+    position: relative;
+}
+th,td{
+    padding: 10px;
+}
+th{
+    background: rgb(160, 253, 233);
+}
+td{
+    background: rgb(220, 245, 229);
+}
+
+.btn,#adds {
+    width:200px;
+    height:48px;
+    background-color:rgba(198, 218, 191, 0.996078431372549);
+    box-sizing:border-box;
+    border-width:2px;
+    border-style:solid;
+    border-color:rgba(121, 121, 121, 1);
+    border-radius:50px;
+    font-size:18px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    
+}
+.btn:hover {
+    background: #E6FFDE;
+}
+
+#update, 
+#delete{
+    width:85px;
+    height:30px;
+}
+
+#adds,
+#schedule{
+    width:105px;
+    height:30px;
+}
+
+input{
+    width:20%;
+    height:50px;
+    background-color:rgba(255, 245, 238, 1);
+    box-sizing:border-box;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgba(85, 85, 85, 1);
+    border-radius:50px;
+    font-size:20px;
+    padding-left: 10px;
+}
+
+#logout {
+    width:200px;
+    height:30px;
+  }
+
+  #out{
+    padding-top: 10px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center; 
+  }
+  h2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    left: 47%;
+    width: 300px;
+  }
